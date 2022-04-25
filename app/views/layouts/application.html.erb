@@ -8,9 +8,15 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
 
   <body>
+  <nav class="navbar navbar-light bg-light justify-content-between">
+    <span class="navbar-brand mb-0 h1"><%= link_to 'Wikimimous', articles_path %></span>
+    <span class="navbar-brand mb-0 h1"><%= link_to 'New Article', new_article_path %></span>
+  </nav>
+
     <%= yield %>
   </body>
 </html>
