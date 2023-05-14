@@ -2,7 +2,7 @@
   "name": "rails-wikinimous",
   "private": true,
   "dependencies": {
-    "@rails/actioncable": "^6.0.0",
+    "@rails/actioncable": "^6.1.7",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.3",
     "bootstrap": "^5.1.3",
